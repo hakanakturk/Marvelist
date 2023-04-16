@@ -34,7 +34,6 @@ import Combine
     let savePathForComics = FileManager.documentsDirectory.appendingPathComponent("SavedComics")
     let savePathForSeries = FileManager.documentsDirectory.appendingPathComponent("SavedSeries")
     
-    var searchCancellable: AnyCancellable? = nil
     
     var publicApiKey: String {
         get {
@@ -92,13 +91,6 @@ import Combine
             savedCharacterList = []
             savedComicsList = []
         }
-//        
-//        searchCancellable = $filterCharacter
-//            .removeDuplicates()
-//            .debounce(for: 0.5, scheduler: RunLoop.main)
-//            .sink(receiveValue: {value in
-//                self.searchedCharacters = []
-//            })
 
     }
     
@@ -114,7 +106,6 @@ import Combine
     }
     
     func addToFavorites(_ character: Character){
-//        objectWillChange.send()
         if !isSaved(character){
             savedCharacterList.append(character)
             save()

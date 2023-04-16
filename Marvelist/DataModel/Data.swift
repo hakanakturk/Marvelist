@@ -13,6 +13,8 @@ struct DataModel: Codable {
 
 struct Result: Codable  {
     let results: [Character]
+    let count: Int
+    let limit: Int
 }
 
 struct Character: Codable, Identifiable, Equatable {
@@ -23,6 +25,7 @@ struct Character: Codable, Identifiable, Equatable {
     let comics, series: Comics?
     let stories: Stories?
     let events: Comics?
+
     
     static func == (lhs: Character, rhs: Character) -> Bool {
         return lhs.id == rhs.id && lhs.name == rhs.name

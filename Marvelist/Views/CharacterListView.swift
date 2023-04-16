@@ -40,6 +40,7 @@ struct CharacterListView: View {
                                     Text("Series \(character.series?.items?.count ?? 0)")
                                         .font(.footnote)
                                         .frame(width: 70, height: 20)
+                                        .foregroundColor(.secondary)
                                         .onTapGesture {
                                             viewModel.selectedCharacter = character
                                         }
@@ -53,7 +54,17 @@ struct CharacterListView: View {
                                         }
                                 }
                             }
+                            if viewModel.isShowingFavorite {
+                                EmptyView()
+                            }else {
+                                ProgressView()
+                                    .progressViewStyle(.circular)
+                                    .task {
+                                        await viewModel.getCharacters()
+                                    }
+                            }
                         }
+                        
                     }
                 } else {
                     List{
@@ -90,11 +101,15 @@ struct CharacterListView: View {
                                 
                             }
                         }
-                        ProgressView()
-                            .progressViewStyle(.circular)
-                            .task {
-                                await viewModel.getCharacters()
-                            }
+                        if viewModel.isShowingFavorite {
+                            EmptyView()
+                        }else {
+                            ProgressView()
+                                .progressViewStyle(.circular)
+                                .task {
+                                    await viewModel.getCharacters()
+                                }
+                        }
                     }
                     .listStyle(.plain)
                     

@@ -11,13 +11,8 @@ class K {
     static let offColor = Color.gray
     static let onColor = Color.yellow
     static let gridOnColor = Color.blue
-
-    
-    let columns = [GridItem(.adaptive(minimum: 80))]
     
     let limit = 20
     var page = 1
-    
-    
 }
 

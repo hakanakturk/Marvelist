@@ -15,8 +15,7 @@ struct CharacterDetailView: View {
     var body: some View {
         ScrollView{
             VStack{
-                HStack {
-                    
+                HStack {                    
                     WebImage(url: URL(string: "\(character.thumbnail?.path ?? "").\(character.thumbnail?.extension ?? "")"))
                         .resizable()
                         .aspectRatio(contentMode: .fit)
