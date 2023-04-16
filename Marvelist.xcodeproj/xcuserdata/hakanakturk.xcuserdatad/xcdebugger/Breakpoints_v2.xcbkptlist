@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "3ADDC5C7-9890-4D91-98AE-427129C8ED49"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E755BAE3-A594-451D-A975-DAED9E1CF5DE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Marvelist/CharacterListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "getCharacters()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E755BAE3-A594-451D-A975-DAED9E1CF5DE - fd871917775c9217"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Marvelist.CharacterListViewModel.getCharacters() async -&gt; ()"
+                  moduleName = "Marvelist"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hakanakturk/Developer/SwiftUI%20Apps/OnGoingProjects/Marvelist/Marvelist/CharacterListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "364">
+               </Location>
+               <Location
+                  uuid = "E755BAE3-A594-451D-A975-DAED9E1CF5DE - bea957a2042a9b2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Marvelist.CharacterListViewModel.getCharacters() async -&gt; ()"
+                  moduleName = "Marvelist"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hakanakturk/Developer/SwiftUI%20Apps/OnGoingProjects/Marvelist/Marvelist/CharacterListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "192">
+               </Location>
+               <Location
+                  uuid = "E755BAE3-A594-451D-A975-DAED9E1CF5DE - fd871917775c9217"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Marvelist.CharacterListViewModel.getCharacters() async -&gt; ()"
+                  moduleName = "Marvelist"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hakanakturk/Developer/SwiftUI%20Apps/OnGoingProjects/Marvelist/Marvelist/CharacterListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "304">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4A711B47-C1F8-451B-BB80-B3745345EE40"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Marvelist/CharacterListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "getCharacters()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4A711B47-C1F8-451B-BB80-B3745345EE40 - bea957a2042aac8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Marvelist.CharacterListViewModel.getCharacters() async -&gt; ()"
+                  moduleName = "Marvelist"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hakanakturk/Developer/SwiftUI%20Apps/OnGoingProjects/Marvelist/Marvelist/CharacterListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "1776">
+               </Location>
+               <Location
+                  uuid = "4A711B47-C1F8-451B-BB80-B3745345EE40 - 2db213978c14c714"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for Marvelist.CharacterListViewModel.getCharacters() async -&gt; ()"
+                  moduleName = "Marvelist"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hakanakturk/Developer/SwiftUI%20Apps/OnGoingProjects/Marvelist/Marvelist/CharacterListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "4A711B47-C1F8-451B-BB80-B3745345EE40 - 573254a3233c2e2e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Marvelist.CharacterListViewModel.getCharacters() async -&gt; ()"
+                  moduleName = "Marvelist"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hakanakturk/Developer/SwiftUI%20Apps/OnGoingProjects/Marvelist/Marvelist/CharacterListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "4A711B47-C1F8-451B-BB80-B3745345EE40 - caff3f0ad66ec3f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for Marvelist.CharacterListViewModel.getCharacters() async -&gt; ()"
+                  moduleName = "Marvelist"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hakanakturk/Developer/SwiftUI%20Apps/OnGoingProjects/Marvelist/Marvelist/CharacterListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "4A711B47-C1F8-451B-BB80-B3745345EE40 - bea957a2042aa29"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Marvelist.CharacterListViewModel.getCharacters() async -&gt; ()"
+                  moduleName = "Marvelist"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hakanakturk/Developer/SwiftUI%20Apps/OnGoingProjects/Marvelist/Marvelist/CharacterListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "1776">
+               </Location>
+               <Location
+                  uuid = "4A711B47-C1F8-451B-BB80-B3745345EE40 - 2db213978c14c7f5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for Marvelist.CharacterListViewModel.getCharacters() async -&gt; ()"
+                  moduleName = "Marvelist"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hakanakturk/Developer/SwiftUI%20Apps/OnGoingProjects/Marvelist/Marvelist/CharacterListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "4A711B47-C1F8-451B-BB80-B3745345EE40 - 573254a3233c2ecf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Marvelist.CharacterListViewModel.getCharacters() async -&gt; ()"
+                  moduleName = "Marvelist"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hakanakturk/Developer/SwiftUI%20Apps/OnGoingProjects/Marvelist/Marvelist/CharacterListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "4A711B47-C1F8-451B-BB80-B3745345EE40 - caff3f0ad66ecde"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for Marvelist.CharacterListViewModel.getCharacters() async -&gt; ()"
+                  moduleName = "Marvelist"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hakanakturk/Developer/SwiftUI%20Apps/OnGoingProjects/Marvelist/Marvelist/CharacterListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B4D2B3DD-0120-466C-BB54-4C536752C77F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Marvelist/CharacterListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "getCharacters()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B4D2B3DD-0120-466C-BB54-4C536752C77F - 573254a3233c2ee8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Marvelist.CharacterListViewModel.getCharacters() async -&gt; ()"
+                  moduleName = "Marvelist"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hakanakturk/Developer/SwiftUI%20Apps/OnGoingProjects/Marvelist/Marvelist/CharacterListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "196">
+               </Location>
+               <Location
+                  uuid = "B4D2B3DD-0120-466C-BB54-4C536752C77F - 573254a3233c2e89"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Marvelist.CharacterListViewModel.getCharacters() async -&gt; ()"
+                  moduleName = "Marvelist"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hakanakturk/Developer/SwiftUI%20Apps/OnGoingProjects/Marvelist/Marvelist/CharacterListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "196">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

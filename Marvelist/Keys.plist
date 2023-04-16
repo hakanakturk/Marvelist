@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PUBLIC_API_KEY</key>
+	<string>80fd003a1ba3d23abaedf61e29ee3699</string>
+	<key>PRIVATE_API_KEY</key>
+	<string>c77b81b9a4c7688d0fadab3f954fe14a8e6488c3</string>
+</dict>
+</plist>
