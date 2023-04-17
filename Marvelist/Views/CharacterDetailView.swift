@@ -38,7 +38,6 @@ struct CharacterDetailView: View {
                         .padding(.leading)
                         .onTapGesture {
                             viewModel.addToFavorites(character)
-//                            viewModel.addToFavoriteComics()
                         }
                     
                     
