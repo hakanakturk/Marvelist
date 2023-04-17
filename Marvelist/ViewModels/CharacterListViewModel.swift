@@ -24,6 +24,7 @@ import Combine
     @Published var savedComicsList = [ComicsDetail]()
     
     @Published var seriesList = [ComicsDetail]()
+    @Published var savedSeriesList = [ComicsDetail]()
     
     let columns = [GridItem(.adaptive(minimum: 80))]
     
@@ -71,6 +72,22 @@ import Combine
         }
     }
     
+    var favoriteComics: [ComicsDetail] {
+        if isShowingFavorite {
+            return savedComicsList
+        } else {
+            return comicsList
+        }
+    }
+    
+    var favoriteSeries: [ComicsDetail] {
+        if isShowingFavorite {
+            return savedSeriesList
+        } else {
+            return seriesList
+        }
+    }
+    
     
     func switchToFavoriteCharacters(){
         isShowingFavorite.toggle()
@@ -88,15 +105,14 @@ import Combine
             savedCharacterList = try JSONDecoder().decode([Character].self, from: data)
             savedComicsList = try JSONDecoder().decode([ComicsDetail].self, from: comicsData)
         }catch {
-            savedCharacterList = []
+            savedSeriesList = []
             savedComicsList = []
         }
-
     }
     
     private func save(){
         do{
-            let data = try JSONEncoder().encode(savedCharacterList)
+            let data = try JSONEncoder().encode(savedSeriesList)
             let comicsData = try JSONEncoder().encode(savedComicsList)
             try data.write(to: savePath, options: [.atomicWrite, .completeFileProtection])
             try comicsData.write(to: savePathForComics, options: [.atomicWrite, .completeFileProtection])
@@ -112,7 +128,35 @@ import Combine
             print("Character is saved to favorites")
         } else {
             if let index = savedCharacterList.firstIndex(of: character) {
-                savedCharacterList.remove(at: index)
+                savedSeriesList.remove(at: index)
+                save()
+                print("Character is deleted from favorites")
+            }
+        }
+    }
+    
+    func addToFavoriteComics(_ comics: ComicsDetail) {
+        if !isComicsSaved(comics){
+            savedComicsList.append(comics)
+            save()
+            print("Character is saved to favorites")
+        } else {
+            if let index = savedComicsList.firstIndex(of: comics) {
+                savedComicsList.remove(at: index)
+                save()
+                print("Character is deleted from favorites")
+            }
+        }
+    }
+    
+    func addToFavoriteSeries(_ series: ComicsDetail) {
+        if !isSeriesSaved(series){
+            savedSeriesList.append(series)
+            save()
+            print("Character is saved to favorites")
+        } else {
+            if let index = savedSeriesList.firstIndex(of: series) {
+                savedSeriesList.remove(at: index)
                 save()
                 print("Character is deleted from favorites")
             }
@@ -121,6 +165,14 @@ import Combine
     
     func isSaved(_ character: Character) -> Bool {
         savedCharacterList.contains(character)
+    }
+    
+    func isComicsSaved(_ comics: ComicsDetail) -> Bool {
+        savedComicsList.contains(comics)
+    }
+    
+    func isSeriesSaved(_ series: ComicsDetail) -> Bool {
+        savedSeriesList.contains(series)
     }
     
     func getCharacters() async {

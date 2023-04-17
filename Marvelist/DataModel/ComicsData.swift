@@ -15,9 +15,13 @@ struct ComicsResult: Codable {
     let results: [ComicsDetail]
 }
 
-struct ComicsDetail: Codable, Identifiable {
+struct ComicsDetail: Codable, Identifiable, Equatable {
     let id: Int
     let title: String
     let description: String?
     let thumbnail: Thumbnail?
+    
+    static func == (lhs: ComicsDetail, rhs: ComicsDetail) -> Bool {
+        return lhs.id == rhs.id && lhs.title == rhs.title
+    }
 }
